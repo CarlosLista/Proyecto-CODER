@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco Itau</title>
+    <title>Clientes</title>
 </head>
 
 <body>
@@ -27,6 +27,9 @@
             <li>
                 <a href="./clientes.html">Atencion al Clientes</a>
             </li>
+            <li>
+                <a href="./nosotros.html">Nosotros</a>
+            </li>
         </ul>
         <form>
             <input type="text" placeholder="Usuario">
@@ -35,11 +38,11 @@
         </form>
     </header>
     <main>
-        <img src="../asset/casa-pila-monedas-hipoteca.webp" alt=""
-            width="250" height="150">
-        <h4>Prestamo Hipotecario</h4>
-        <p>Te financiamos hasta el 80% del valor de compra venta para primera vivienda, siempre que no supere el 100%
-            del valor de venta rápida que determina la empresa tasadora.</p>
+        <img src="../asset/atencion-al-cliente.webp" alt="" width="500"
+            height="300">
+        <h3>Consultas las 24 Horas</h3>
+        <p>Accedé a tu cuenta desde cualquier lugar de forma simple, fácil y segura.</p>
+        <p>Las 24 horas, los 365 días del año.</p>          
     </main>
     <footer>
         <h2>Oficinas</h2>
@@ -54,11 +57,16 @@
         <p>Sabados y Feriados de 09 a 17 hrs</p>
         <h2>Formulario de Contacto</h2>
         <form>
-            <input type="text" placeholder="Nombre y Apellido">
-            <input type="text" placeholder="Correo Electronico">
-            <input type="text" placeholder="Telefono">
-            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-            <input type="button" value="enviar">
+            <label for="nombres"></label>
+            <input type="text" placeholder="Nombre y Apellido" name="nombres">
+            <label for="email"></label>
+            <input type="text" placeholder="Correo Electronico" name="email">
+            <label for="telefono"></label>
+            <input type="text" placeholder="Telefono" name="telefono">
+            <label for="comentario"></label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" name="comentario"></textarea>
+            <label for="enviar"></label>
+            <input type="button" value="enviar" name="enviar">
 
         </form>
     </footer>
